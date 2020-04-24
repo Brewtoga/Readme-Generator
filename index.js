@@ -104,7 +104,7 @@ const init = () => {
         api.getUser(data.githubUsername).then(response => {
             console.log(response.data.avatar_url);
             console.log(createBadge(data.badgeChoice));
-            writeToFile("README.md", generateMarkdown(data));
+            writeToFile("ReadMe.md", generateMarkdown(data));
         });
     });
 }
