@@ -1,24 +1,24 @@
 ## Badge[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 ## Title
-* Readme-Generator]
+* Readme-Generator
 ## Description
-* e
+* awesome
 ## Install
-* e
+* run npm install -y
 ## Table of Contents
-* e
+* index 
 ## Usage
-* e
+* creating a cool readme quickly
 ## License
 * ISC
 ## Contributions
-* d
+* me
 ## Tests
-* d
+* input
 ## Questions
 * Profile Pic
 - https://avatars2.githubusercontent.com/u/60475383?s=460&u=36c6dbdcdb3eea009743535a88f2eb84c6a250ad&v=4
-* d
+* me
 * Username
 - brewtoga
 * E-mail Address
