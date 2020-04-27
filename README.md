@@ -1,31 +1,29 @@
-
-    ## Badge 
-      [![License: ](https://img.shields.io/badge/License--blue.svg)](https://opensource.org/licenses/)
+## Badge
+    [![License: ](https://img.shields.io/badge/License--blue.svg)](https://opensource.org/licenses/)
     ## Title
-      * Readme-Generator
+    * d
     ## Description
-      * Readme-Genrator is a app designed to quickly create a readme file for a github project
+    * d
     ## Install
-      * from node run npm install dont forget to run npm i axios inquirer because those are necessary libraries
+    * d
     ## Table of Contents
-      * index.js runs app  util folder holds api.js that makses call to github and generateMarkdown that write data to readme file  
+    * d
     ## Usage
-      * run node index.js
+    * d
     ## License
-      * 
+    * 
     ## Contributions
-      * You are welcome to clone and work on this app 
+    * contact me
     ## Tests
-      * user test and lookedd at results
+    * input
     ## Questions
-      * Profile Pic
-        - https://avatars2.githubusercontent.com/u/60047023?v=4
-      * please cantact me goe Brewtoga email goe@BREWTOGA.com github brewtoga or phone is 424999nope 
-      * Username
-        - Brewtoga
-      * E-mail Address
-        - george@brewsystems.com
+    * Profile Pic
+    - https://avatars0.githubusercontent.com/u/60475383?s=460&u=36c6dbdcdb3eea009743535a88f2eb84c6a250ad&v=4
+    * me
+    * Username
+    * - brewtoga
+    * * E-mail Address
+    * - george@brewsystems.com
     ## Badge
-      * 
-     https://img.shields.io/github/license/Brewtoga/README-generator
+    * https://img.shields.io/github/license/brewtoga/README-generator
     

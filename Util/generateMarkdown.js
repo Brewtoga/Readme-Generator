@@ -1,40 +1,37 @@
-  const generateMarkdown = data => {
-    let profilePic = `https://avatars2.githubusercontent.com/u/60047023?v=4`;
-    let repoName = "README-generator";
-    let badgeHTTPOne = `[![License: ${data.badgeChoice}](https://img.shields.io/badge/License-${data.badgeChoice}-blue.svg)](https://opensource.org/licenses/${data.badgeChoice})`;
-    let badgeHTTP = `
-     https://img.shields.io/github/license/${data.githubUsername}/${repoName}`;
-      return `
-    ## Badge 
-      ${badgeHTTPOne}
+function generateMarkdown(data) {
+    var profilePic = `https://avatars0.githubusercontent.com/u/60475383?s=460&u=36c6dbdcdb3eea009743535a88f2eb84c6a250ad&v=4`;
+    var repoName = "README-generator";
+    var badgeHTTPOne = `[![License: ${data.badgeChoice}](https://img.shields.io/badge/License-${data.badgeChoice}-blue.svg)](https://opensource.org/licenses/${data.badgeChoice})`;
+    var badgeHTTP = `https://img.shields.io/github/license/${data.githubUsername}/${repoName}`;
+    return `## Badge
+    ${badgeHTTPOne}
     ## Title
-      * ${data.title}
+    * ${data.title}
     ## Description
-      * ${data.projectDescription}
+    * ${data.projectDescription}
     ## Install
-      * ${data.appInstall}
+    * ${data.appInstall}
     ## Table of Contents
-      * ${data.tableOfContents}
+    * ${data.tableOfContents}
     ## Usage
-      * ${data.usage}
+    * ${data.usage}
     ## License
-      * ${data.badgeChoice}
+    * ${data.badgeChoice}
     ## Contributions
-      * ${data.contributing}
+    * ${data.contributing}
     ## Tests
-      * ${data.tests}
+    * ${data.tests}
     ## Questions
-      * Profile Pic
-        - ${profilePic}
-      * ${data.questions}
-      * Username
-        - ${data.githubUsername}
-      * E-mail Address
-        - ${data.userEmail}
+    * Profile Pic
+    - ${profilePic}
+    * ${data.questions}
+    * Username
+    * - ${data.githubUsername}
+    * * E-mail Address
+    * - ${data.userEmail}
     ## Badge
-      * ${badgeHTTP}
-    `
-    ;
-    }
-    
-    module.exports = generateMarkdown;
+    * ${badgeHTTP}
+    `;
+}
+
+module.exports = generateMarkdown;
