@@ -1,20 +1,19 @@
-## Badge[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-## Title
-* Readme-Generator
+
+## Readme-Generator
 ## Description
 * awesome
 ## Install
-* run npm install -y
+* npm install
 ## Table of Contents
-* index 
+* index.js -util with api.js and generateMarkdown.js
 ## Usage
-* creating a cool readme quickly
+* run in node
 ## License
 * ISC
 ## Contributions
 * me
 ## Tests
-* input
+* me
 ## Questions
 * Profile Pic
 - https://avatars2.githubusercontent.com/u/60475383?s=460&u=36c6dbdcdb3eea009743535a88f2eb84c6a250ad&v=4
@@ -23,5 +22,6 @@
 - brewtoga
 * E-mail Address
 - george@brewsystems.com
-## Badge* 
+## Badge
+* 
     https://img.shields.io/github/license/brewtoga/README-generator

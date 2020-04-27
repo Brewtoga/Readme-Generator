@@ -1,12 +1,10 @@
 function generateMarkdown(data) {
     let profilePic = `https://avatars2.githubusercontent.com/u/60475383?s=460&u=36c6dbdcdb3eea009743535a88f2eb84c6a250ad&v=4`;
     let repoName = "README-generator";
-    let badgeHTTPOne = `[![License: ${data.badgeChoice}](https://img.shields.io/badge/License-${data.badgeChoice}-blue.svg)](https://opensource.org/licenses/${data.badgeChoice})`;
-    let badgeHTTP = `
+     let badgeHTTP = `
     https://img.shields.io/github/license/${data.githubUsername}/${repoName}`
-    return`## Badge${badgeHTTPOne}
-## Title
-* ${data.title}
+    return`
+## ${data.title}
 ## Description
 * ${data.projectDescription}
 ## Install
@@ -29,7 +27,8 @@ function generateMarkdown(data) {
 - ${data.githubUsername}
 * E-mail Address
 - ${data.userEmail}
-## Badge* ${badgeHTTP}`;
+## Badge
+* ${badgeHTTP}`;
 }
 
 module.exports = generateMarkdown;
