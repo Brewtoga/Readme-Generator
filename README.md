@@ -1,25 +1,27 @@
 
 ## Readme-Generator
 ## Description
-* Readme-Generator is a app designed to quickly and easily create a readme file.
+* Readme-Generator is a quick and easy way to create a Readme file in markdown format.
 ## Install
-* run npm install  run npm i inquirer axios
+* install npm inquirer axios and run node index.js
+* Click Image below to watch an instatllation video.
+[![](https://drive.google.com/file/d/1FLZZWgH06Q3NnY3DyD74FlExj3N5Ocky/view?usp=sharing)](https://drive.google.com/file/d/1q66ickztYMdGeLJH29y8Hj2GqY06Rvjh/view?usp=sharing)
 ## Table of Contents
-* main file is index.js and two utillities are located in the util folder they are api.js and generateMarkdown.js 
+* assets holds image Util holds two utility files api.js and generateMarkdown.js and index.js is your starting point
 ## Usage
-* this app is used to creat a read me file in markdown
+* Run index.js in node and then answer a series of questions to create a readme.md
 ## License
 * ISC
 ## Contributions
-* Developers can clone Readme-Genrator from my github to work on the code
+* Developers can clone Readme-Generator from github.
 ## Tests
-* I ran through the code many times looking for errors and I had a few other people run through the program as well.
+* Input by myself and corrected errors
 ## Questions
 * Profile Pic
 - https://avatars2.githubusercontent.com/u/60475383?s=460&u=36c6dbdcdb3eea009743535a88f2eb84c6a250ad&v=4
-* Contact me
+* contact me
 * Username
-- brewtoga
+- Brewtoga
 * E-mail Address
 - george@brewsystems.com
 ## Badge* [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)

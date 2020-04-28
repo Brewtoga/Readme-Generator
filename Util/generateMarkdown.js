@@ -10,6 +10,8 @@ function generateMarkdown(data) {
 * ${data.projectDescription}
 ## Install
 * ${data.appInstall}
+* Click Image below to watch an instatllation video.
+[![](https://drive.google.com/file/d/1FLZZWgH06Q3NnY3DyD74FlExj3N5Ocky/view?usp=sharing)](https://drive.google.com/file/d/1q66ickztYMdGeLJH29y8Hj2GqY06Rvjh/view?usp=sharing)
 ## Table of Contents
 * ${data.tableOfContents}
 ## Usage
