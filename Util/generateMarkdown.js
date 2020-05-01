@@ -6,18 +6,21 @@ function generateMarkdown(data) {
     https://img.shields.io/github/license/${data.githubUsername}/${repoName}`
     return`
 ## ${data.title}
+## Table of Contents
+* [Description](#Description)
+* [Installation](#Install)
+* [Usage](#Usage)
+* [Tests](#Tests)
+* [Github](#Github)
+* [Contact](#Email)
 ## Description
 * ${data.projectDescription}
 ## Install
 * ${data.appInstall}
 * Click Image below to watch an instatllation video.
-[![](https://drive.google.com/file/d/1FLZZWgH06Q3NnY3DyD74FlExj3N5Ocky/view?usp=sharing)](https://drive.google.com/file/d/1q66ickztYMdGeLJH29y8Hj2GqY06Rvjh/view?usp=sharing)
-## Table of Contents
-* ${data.tableOfContents}
+[![](./assets/Screenshot.png)](https://drive.google.com/file/d/1q66ickztYMdGeLJH29y8Hj2GqY06Rvjh/view?usp=sharing)
 ## Usage
 * ${data.usage}
-## License
-* ${data.badgeChoice}
 ## Contributions
 * ${data.contributing}
 ## Tests
@@ -25,11 +28,14 @@ function generateMarkdown(data) {
 ## Questions
 * Profile Pic
 - ${profilePic}
+## Issues
 * ${data.questions}
-* Username
+## Github Username
 - ${data.githubUsername}
-* E-mail Address
+## Email
 - ${data.userEmail}
+## License
+* ${data.badgeChoice}
 ## Badge* ${badgeHTTPOne}`;
 }
 

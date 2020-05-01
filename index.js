@@ -39,13 +39,6 @@ const questions = [
  
      },
 
-     {
-      type: "input",
-      name: "tableOfContents",
-      message: "What is your Table of Contents?"
-
-   },
-
    {
       type: "input",
       name: "usage",

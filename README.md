@@ -1,27 +1,33 @@
 
-## Readme-Generator
-## Description
-* Readme-Generator is a quick and easy way to create a Readme file in markdown format.
-## Install
-* install npm inquirer axios and run node index.js
-* Click Image below to watch an instatllation video.
-[![](https://drive.google.com/file/d/1FLZZWgH06Q3NnY3DyD74FlExj3N5Ocky/view?usp=sharing)](https://drive.google.com/file/d/1q66ickztYMdGeLJH29y8Hj2GqY06Rvjh/view?usp=sharing)
+## Readme Generator
 ## Table of Contents
-* assets holds image Util holds two utility files api.js and generateMarkdown.js and index.js is your starting point
+* [Description](#Description)
+* [Installation](#Install)
+* [Usage](#Usage)
+* [Tests](#Tests)
+* [Github](#Github)
+* [Contact](#Email)
+## Description
+* Quickly provides a goood readme markdown file with a table of contents
+## Install
+* Run in node
+* Click Image below to watch an instatllation video.
+[![](./assets/Screenshot.png)](https://drive.google.com/file/d/1q66ickztYMdGeLJH29y8Hj2GqY06Rvjh/view?usp=sharing)
 ## Usage
-* Run index.js in node and then answer a series of questions to create a readme.md
-## License
-* ISC
+* simple download and run in node
 ## Contributions
-* Developers can clone Readme-Generator from github.
+* Clone from github
 ## Tests
-* Input by myself and corrected errors
+* User input
 ## Questions
 * Profile Pic
 - https://avatars2.githubusercontent.com/u/60475383?s=460&u=36c6dbdcdb3eea009743535a88f2eb84c6a250ad&v=4
-* contact me
-* Username
-- Brewtoga
-* E-mail Address
-- george@brewsystems.com
+## Issues
+* Contact me
+## Github Username
+- brewtoga
+## Email
+- george@george.com
+## License
+* ISC
 ## Badge* [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
