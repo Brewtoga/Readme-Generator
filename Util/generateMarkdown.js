@@ -5,14 +5,18 @@ function generateMarkdown(data) {
     let badgeHTTP = `
     https://img.shields.io/github/license/${data.githubUsername}/${repoName}`
     return`
-## ${data.title}
+# ${data.title}
+
 ## Table of Contents
 * [Description](#Description)
-* [Installation](#Install)
+* [Installation with Video](#Install)
 * [Usage](#Usage)
 * [Tests](#Tests)
-* [Github](#Github)
+* [Github Username](#Github)
 * [Contact](#Email)
+* [License](#Badge)
+
+---
 ## Description
 * ${data.projectDescription}
 ## Install
@@ -25,18 +29,16 @@ function generateMarkdown(data) {
 * ${data.contributing}
 ## Tests
 * ${data.tests}
-## Questions
-* Profile Pic
+## Profile Pic
 - ${profilePic}
 ## Issues
 * ${data.questions}
-## Github Username
+## Github
 - ${data.githubUsername}
 ## Email
 - ${data.userEmail}
-## License
-* ${data.badgeChoice}
-## Badge* ${badgeHTTPOne}`;
+## Badge
+* ${badgeHTTPOne}`;
 }
 
 module.exports = generateMarkdown;

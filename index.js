@@ -90,13 +90,10 @@ function writeToFile(fileName, data) {
    return fs.writeFileSync(path.join(__dirname,fileName),data)
 }
 
-console.log(__dirname)
 
 function init() {
     inquirer.prompt(questions).then(function(data) {
         api.getUser(data.githubUsername).then(response => {
-            console.log(response.data.avatar_url);
-            console.log(createBadge(data.badgeChoice));
             writeToFile("README.md",generateMarkdown(data));
         });
     });
